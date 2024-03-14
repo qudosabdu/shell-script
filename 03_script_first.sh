@@ -2,11 +2,20 @@
 
 #this condistional statement
 
-read -p "Enter the name: " name
-if [[ $name=="Abdul Qudoos" ]];
-then
-	echo "Hey Welcome to our community!"
+# Prompt the user for their age
+read -p "Please enter your age: " age
+
+# Check if the age is greater than or equal to 18
+if [ "$age" -le 1 ]; then
+        echo "The person is an infant."
+elif ["$age" -lt 13]; then
+        echo "The person is a child."
+elif ["$age" -lt 20]; then
+        echo "The person is a teenager."
 else
-	echo "You are not a community member"
-fi 
+        echo "The person is an adult."
+fi
+
+#this means to end the block
+
 #this means to end the block
