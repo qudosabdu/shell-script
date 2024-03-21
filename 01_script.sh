@@ -8,3 +8,5 @@ echo "Hello, World!"
 # $ bash 01_script_first.sh
 # or
 # $ ./01_script_first.sh
+
+
